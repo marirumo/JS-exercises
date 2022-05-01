@@ -1,7 +1,7 @@
 /*
-Crear un programa que solicite la edad de 10 personas y pueda diferencias si son elders o menores de edad
+Crear un programa que solicite la edad de 10 personas y pueda diferencias si son mayores o menores de edad
 
-1. Crear variable para elders de edad e inicializarla
+1. Crear variable para mayores de edad e inicializarla
 2. Crear variable para menores de edad e inicializarla
 3. Crear condicion donde se alamcenarán los datos
 4. Solicitar que se ingresen las edades
