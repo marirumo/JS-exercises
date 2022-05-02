@@ -22,12 +22,12 @@ let elders = 0;
 let youngsters =0;
 
 
-for (counter = 1; counter <=10; counter++){
+for (let counter = 1; counter <=10; counter++){
     let age = prompt('Por favor, ingresa la edad de la persona' + counter)
 
     if (age >= 18){
     
-        elders = elders + 1;
+        elders += 1;
         
     }
     
