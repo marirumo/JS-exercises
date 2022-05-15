@@ -21,27 +21,21 @@ alert(`Tus vacaciones a ${destiny} van a costar  ${totalPrice} `);
 const feedCalculator = (totalPrice, selection) => {
     let feeds = parseInt(prompt("¿En cuantas cuotas quieres pagar tus vacaciones: 2, 3, 6, o 9?"));
 
-    if (feeds === 2) {
+    switch (feeds) {
 
-        final = totalPrice / feeds + (0.03*totalPrice)
+        case 2: final = totalPrice / feeds + (0.03*totalPrice)
         alert("El precio total a pagar es de: " +final + " por " +feeds+ " meses");
+        break
 
-    }
-    if (feeds === 3){
+        case 3: final = totalPrice / feeds + (0.06*totalPrice)
+        alert("El precio total a pagar es de: " +final + " por " +feeds+ " meses");
+        break
 
-        final = totalPrice / feeds + (0.06*totalPrice)
-        alert("El precio a pagar es de: " + final + " por " +feeds+ " meses");
+        case 6: final = totalPrice / feeds + (0.09*totalPrice)
+        alert("El precio total a pagar es de: " +final + " por " +feeds+ " meses");
+        break
 
-    }
-    if  (feeds === 6){
-
-        final = totalPrice / feeds + (0.09*totalPrice)
-        alert("El precio a pagar es de: " + final + " por " +feeds+ " meses");
-
-    }
-    else if  (feeds === 9){
-
-        final = totalPrice / feeds + (0.10*totalPrice)
+        case 9: final = totalPrice / feeds + (0.10*totalPrice)
         alert("El precio a pagar es de: " + final + " por " +feeds+ " meses");
 
     }
