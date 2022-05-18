@@ -49,7 +49,7 @@ while (add === 'M') {
   price = Number(prompt('¿Cuánto costó?'))
   accommodation.push(new Hotel(depto, price))
 
-  add = prompt('Si necesitas agregar otro transporte escribe "M", si deseas continuar presiona cualquier tecla')
+  add = prompt('Si necesitas agregar otro lugar de hospedaje escribe "M", si deseas continuar presiona cualquier tecla')
 }
 
 let priceHotel = [];
