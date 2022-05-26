@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactuar con HTML </title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <main>
+
+        <section>
+            <div id="intro">
+                <h1>Planemos tus vacaciones</h1>
+                <input id="username" type="text" placeholder="Ingresa tu nombre">
+                <input id="destiny" type="text" placeholder="¿A dónde irás de vacaciones?">
+                <input type="button" class="btn" id="saveBtn" value="Guardar">
+            </div>
+
+            <div id="welcome" class="show">
+                <p id="usernameOut"></p>
+                <h3>calculamos el costo de tus próximas vacaciones a </h2>
+                    <p id="holiday"></p>
+                    <input type="button" class="btn" id="save" value="Guardar">
+            </div>
+
+            <div id="calcTr" class="show">
+            </div>
+        </section>
+
+        <section id="total"></section>
+        <input type="button" class="btn show" id="calcFeeds" value="Paga en cuotas" >
+
+
+        <div id="feeds" class="show"></div>
+    </main>
+</body>
+
+<script src="./js/main.js"></script>
+
+</html>
